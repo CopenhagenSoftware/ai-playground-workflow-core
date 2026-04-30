@@ -1,5 +1,5 @@
 ---
-name: maintenance
+name: update-dependencies
 description: Upgrade dependencies to their latest safe versions across all projects in the repository.
 agent: agent
 model: GPT-5.4
