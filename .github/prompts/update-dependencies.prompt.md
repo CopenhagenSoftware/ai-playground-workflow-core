@@ -1,3 +1,11 @@
+---
+name: maintenance
+description: Upgrade dependencies to their latest safe versions across all projects in the repository.
+agent: agent
+model: GPT-5.4
+tools: [execute, read, edit, search, agent, todo]
+---
+
 Your task is to update NuGet package dependencies across all projects in this repository to their latest available versions, without introducing any breaking changes.
 
 ## Context
